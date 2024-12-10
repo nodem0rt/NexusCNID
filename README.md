@@ -26,11 +26,11 @@
    ```
 3. Change the file permissions
    ```
-   chmod +x NexusCNID.sh
+   chmod +x Nexus.sh
    ```
 4. Run the script
    ```
-   ./NexusCNID.sh
+   ./Nexus.sh
    ```
 5. Voila ! now you can detach the screen
    ctrl-A+D
