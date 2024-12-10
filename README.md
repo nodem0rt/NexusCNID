@@ -18,7 +18,7 @@
 1. **Clone Repository**
    ```bash
     git clone https://github.com/nodem0rt/NexusCNID.git
-    cd nexusws
+    cd NexusCNID
 
 2. Create the screen (Sudo apt install screen if your server didn't setup before)
    ```
