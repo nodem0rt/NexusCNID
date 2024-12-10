@@ -1,4 +1,4 @@
-# Nexus running via CLI
+# Nexus Lab Testnet running via CLI
 
 ### Step 1: Register and Get Prover ID
 1. Go to the web: [beta.nexus.xyz](https://beta.nexus.xyz).
