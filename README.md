@@ -1,22 +1,38 @@
-# NEXUS XYZ
+# Nexus running via CLI
 
-Run Nexus via CLI mode: 
-Step 1: Register and Get Prover ID
-Go to the web: https://beta.nexus.xyz.
-Register using your email in the profile section. (if email not coming just wait for further info)
-Inspect the website to get the prover ID:
-Open the browser's Developer Tools (F12 or right-click and select "Inspect").
-Go to the "Console" tab and run the following command:
-localStorage.getItem('flutter.proverId');
-Copy the flutter.proverId value.
-Step 2: Run Nexus
-Clone the repository
- git clone https://github.com/nodem0rt/NexusCNID.git
- cd NexusCNID
-Process on screen
-screen -S nexus
-Change File Permissions
-chmod +x nexus.sh
-Run the script
-./nexus.sh
-voila! now you can detach screen (ctrl + AD)
+### Step 1: Register and Get Prover ID
+1. Go to the web: [beta.nexus.xyz](https://beta.nexus.xyz).
+2. Register using your email in the profile section (if the email not coming you can try again later).
+3. Get the prover ID by inspecting the website :
+   - Open your Chrome browser's Developer Tools
+   - Go to the "Console" tab and run the following command:
+     ```javascript
+     localStorage.getItem('flutter.proverId');
+     ```
+4. Copy the `flutter.proverId` value.
+
+---
+
+### Step 2: Run Nexus CLI mode
+
+1. **Clone Repository**
+   ```bash
+    git clone https://github.com/nodem0rt/NexusCNID.git
+    cd nexusws
+
+2. Create the screen (Sudo apt install screen if your server didn't setup before)
+   ```
+   screen -S nexus
+   ```
+3. Change the file permissions
+   ```
+   chmod +x NexusCNID.sh
+   ```
+4. Run the script
+   ```
+   ./NexusCNID.sh
+   ```
+5. Voila ! now you can detach the screen
+   ctrl-A+D
+---
+<br>
