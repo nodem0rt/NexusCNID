@@ -34,6 +34,6 @@
    ```
 5. Voila ! now you can detach the screen
    ctrl-A+D
-   and you can monitor the progress by input: screen -r nexus
+   and you can monitor the progress by accessing previous screen: screen -r nexus
 ---
 <br>
